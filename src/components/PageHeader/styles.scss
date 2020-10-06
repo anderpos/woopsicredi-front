@@ -1,0 +1,34 @@
+header {
+  background-color: #fff;
+  height:90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .user-header {
+    display:flex;
+
+    img {
+      margin-left: 5px;
+      opacity: .6;
+      transition: opacity 0.2s ease-in;
+
+      &:hover {
+        opacity: 1;
+        transition: opacity 0.2s ease-in;
+      }
+    }
+
+    span {
+      line-height: 20px;
+      font-weight: 600;
+      color: #919191;
+    }
+  }
+
+  .logo {
+    width:200px;
+    height:47px;
+    margin: 20px 0 ;
+  }
+}

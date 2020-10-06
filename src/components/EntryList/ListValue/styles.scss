@@ -1,0 +1,29 @@
+.list-value{
+  min-width: 400px;
+  padding:15px;
+  border-bottom: 1px solid #CCCCCC;
+
+  .entry-name {
+    font-size: 18px;
+  }
+
+  .controls {
+    float:right;
+    transition: opacity 0.2s ease-in;
+    opacity: 0;
+
+    img {
+      margin-left:10px;
+      cursor:pointer;
+    }
+  }
+
+  &:hover .controls {
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+  }
+
+  .expanded{
+    margin-top: 10px;
+  }
+}

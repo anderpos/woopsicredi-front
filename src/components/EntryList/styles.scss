@@ -1,0 +1,9 @@
+@import '../../styles';
+
+.list-container {
+  @include container-background(550px);
+
+  .add-entry{
+    margin-left: 450px;
+  }
+}

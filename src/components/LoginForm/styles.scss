@@ -1,0 +1,42 @@
+@import '../../styles';
+
+.login-container {
+  @include container-background(300px);
+
+  fieldset {
+    display:flex;
+    flex-direction:column;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 300;
+    margin:15px 0;
+  }
+
+  .form-field {
+    display: flex;
+    margin-bottom: 20px;
+  
+    input {
+      padding: 0 15px;
+      border-radius: 5px;
+    }
+  
+    label {
+      margin-right: 5px;
+      padding: 5px;
+    }
+  }
+  
+  .logo {
+    width:200px;
+    height:47px;
+    margin: 20px 0 ;
+  }
+  
+  .submit-button {
+    @include button;
+  }
+}
+
